@@ -1,0 +1,55 @@
+*{
+        margin: 0;
+        padding:0;
+}
+#main{  
+        margin: 30px 10px;
+        border-radius: 8px;
+        background-color: rgb(238, 234, 234);
+        padding: 20px;
+}
+#main h1,#main p{
+        width: fit-content;
+        margin: auto;
+        padding: 12px;
+        text-align: center;
+}
+#title{
+        font-size: 3em;;
+}
+#main #img-div{
+        background-color: white;
+}
+#main img{
+        width: 70vw;
+        max-width: 100%;
+        display: block;
+        margin: auto;
+}
+@media screen and (max-width: 400px) {
+        #main img {
+          width: 95%;
+        }
+        #tribute-info{
+                width: 80%;
+        }
+}
+@media screen and (min-width: 700px) {
+        #main h1 {
+          font-size:40px;
+        }
+        #tribute-info{
+                width: 700px;
+        }
+}
+#tribute-info{
+        margin:auto;
+}
+#main h2{
+        max-width: fit-content;
+        margin: auto;
+        padding:50px;
+}
+#tribute-info ul{
+        font-size: 20px;
+}

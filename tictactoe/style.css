@@ -1,0 +1,19 @@
+
+
+*{
+        font-family: 'Exo 2', sans-serif;
+        margin: 0;
+        padding: 0;
+}
+nav{
+        background-color: rgb(21, 156, 156);
+        color:rgb(230, 240, 240);
+        height:45;
+        font-size: 25px;
+        display:flex;
+        align-items: center;
+        padding-left: 10px;
+}
+nav ul{
+        list-style-type: none;
+}

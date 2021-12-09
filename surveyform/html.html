@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      <em>Thank you for taking the time to help us improve the platform</em>
+    </p>
+    <form id="survey-form">
+      <label id="name-label" for="name"><b>Name</b></label
+      ><br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br />
+
+      <label id="email-label" for="email"><b>Email</b></label
+      ><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      /><br />
+
+      <label id="number-label" for="age"><b>Age</b>(optional)</label><br />
+      <input
+        type="number"
+        name="age"
+        id="number"
+        placeholder="Age"
+        min="18"
+        max="30"
+      /><br />
+      <label id="dropdown-label" for="role"
+        ><b>Which option best describes your current role?</b></label
+      ><br />
+      <select name="role" id="dropdown" required>
+        <option value="" disabled selected>Select current role</option>
+        <option value="student">Student</option>
+        <option value="Full time job">Full time job</option>
+        <option value="Full time learner">Full time learner</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        <option value="Other">Other</option></select
+      ><br />
+      <label id="recommend-label" for="recommend"
+        ><b>Would you recommend freeCodeCamp to a friend?</b></label
+      >
+      <br />
+      <input type="radio" id="definitely" name="recommend" value="definitely" />
+        <label for="definitely">Definitely</label><br />
+      <input type="radio" id="May be" name="recommend" value="May be" />
+        <label for="May be">May be</label><br />
+      <input type="radio" id="Never" name="recommend" value="Never" />
+        <label for="Never">Never</label><br>
+      <label id="checkbox-label" for="checkbox"><b>What would you like to see improved? </b>(Check all that apply)</label>
+      <br>
+      <input type="checkbox" id="front-end" name="checkbox" value="front-end" />
+        <label for="front-end">Front-end Projects</label><br />
+      <input type="checkbox" id="May be" name="checkbox" value="back-end" />
+        <label for="back-end">Back-end projects</label><br />
+      <input type="checkbox" id="Never" name="checkbox" value="Wiki" />
+        <label for="Wiki">Wiki</label><br>
+      <label id="text-label" for="textarea"><b>Any comments or suggestions?</b></label>
+      <br>
+      <textarea id="textarea" name="textarea"></textarea><br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
