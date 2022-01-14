@@ -8,7 +8,8 @@ class Food{
         public:
         void gen_food(){
                 pos.X = rand()%(width-3) + 1;
-                pos.Y = rand()%(height+3) + 1;
+                pos.Y = rand()%(height-3) + 1;
+                // cout<<"new food called";
         }
         COORD get_pos(){
                 return pos;

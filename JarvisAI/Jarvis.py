@@ -46,6 +46,10 @@ engine.setProperty('voice',voices[1].id)
 
 
 if __name__=="__main__":
+        wishMe();
+        takeCommand();
         # speak("I love you Tushar")
-        wishMe()
-        takeCommand()
+        # with open('book.txt','r') as file:
+        #         for line in file:
+        #                 speak(line)
+
